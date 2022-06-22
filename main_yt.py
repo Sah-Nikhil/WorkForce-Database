@@ -19,6 +19,12 @@ root.iconbitmap("logo.ico")
 input_frame = LabelFrame(root, text='Info', bg="lightgray", font=('Consolas', 14))
 input_frame.grid(row=0, column=0, rowspan=5, columnspan=4)
 
+# create ring function
+def ring():
+    root.bell()
+
+
+
 
 l1 = Label(input_frame, anchor="w", width=24,
            height=1, relief="ridge", text="ID",
@@ -155,6 +161,7 @@ def change_background_color(new_color):
     crm_ln.config(bg=new_color)
     crm_cellphone.config(bg=new_color)
     crm_csid.config(bg=new_color)
+    ring()
 
 
 # button function in certain cases
