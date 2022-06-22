@@ -33,6 +33,10 @@ canvas = Canvas(root, height=447, width=640, bd=0,highlightthickness=0)
 canvas.pack(fill="both", expand=True)
 canvas.create_image(0,0,image=bg,anchor="nw")
 
+# create ring function
+def ring():
+    root.bell()
+
 
 # Create welcome screen
 def welcome():
@@ -50,11 +54,13 @@ def welcome():
             un_entry.destroy()
             pw_entry.destroy()
             login_button.destroy()
+            ring()
     else:
         canvas.create_text(319, 218, text="Account not found! Kindly RETRY.", font=("Agency FB", 21), fill="white")
         un_entry.destroy()
         pw_entry.destroy()
         login_button.destroy()
+        ring()
 
 
 
