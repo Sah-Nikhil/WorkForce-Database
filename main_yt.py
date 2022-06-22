@@ -11,7 +11,7 @@ my_data_list = {}
 root = Tk()
 root.title('Workforce Database Setup')
 root.geometry("831x530")
-root.configure(bg='black')
+root.configure(bg='#F9F7FB')
 root.resizable(False ,False)
 
 
