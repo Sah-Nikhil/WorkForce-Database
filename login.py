@@ -16,6 +16,7 @@ root.title("Login")
 root.geometry("640x447")
 root.configure(bg='black')
 root.resizable(False ,False)
+root.iconbitmap("logo.ico")
 
 #creat json dictionary
 accounts = {}

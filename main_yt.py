@@ -13,6 +13,7 @@ root.title('Workforce Database Setup')
 root.geometry("831x530")
 root.configure(bg='#F9F7FB')
 root.resizable(False ,False)
+root.iconbitmap("logo.ico")
 
 
 input_frame = LabelFrame(root, text='Info', bg="lightgray", font=('Consolas', 14))

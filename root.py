@@ -16,6 +16,7 @@ root.title("Workforce Database Home")
 root.geometry("640x447")
 root.configure(bg='black')
 root.resizable(False ,False)
+root.iconbitmap("logo.ico")
 
 #background image set
 bg = ImageTk.PhotoImage(file="loginimg.png")
